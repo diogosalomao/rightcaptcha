@@ -1,11 +1,1 @@
-INCLUIR
-
-Siga os próximos passos e veja como implementar:
-- Incluir a linha de chamada do script do captcha logo antes da tag </body>
-	<script src="//rightcaptcha.s3.amazonaws.com/captcha.min.js"></script>
-
-- Dentro do seu formulário, adicione a div abaixo no exato local onde você quer que o Right Captcha apareça na sua página.
-	<div id="pride-captcha"></div>
-
-ATENÇÃO
-É necessária a validação no backend antes de processar o formulário. Para isso você deve fazer uma requisição GET para a url http://www.founders.com.br/rightcaptcha/validateCaptcha.php?rightCaptchaResponse=[CAMPO DO FORMULARIO] passando o parâmetro 'rightCaptchaResponse' que foi adicionado ao seu formulário após a resposta do usuário.
+#rightCaptcha
